@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="container">
+      <h1>Art Gallery</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Paintings</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Filters -->
+    <aside>
+      <h2>Filters</h2>
+      <form>
+        <label for="category">Category:</label>
+        <select id="category">
+          <option value="all">All</option>
+          <option value="portrait">Portrait</option>
+          <option value="landscape">Landscape</option>
+          <option value="abstract">Abstract</option>
+        </select>
+        <button type="submit">Apply</button>
+      </form>
+    </aside>
+
+    <!-- Paintings Display -->
+    <section id="paintings">
+      <!-- Individual Painting Cards -->
+      <div class="painting-card">
+        <img src="painting1.jpg" alt="Painting 1">
+        <h3>Painting Title</h3>
+        <p>Artist Name</p>
+        <p>$100</p>
+        <button>Add to Cart</button>
+      </div>
+      <!-- Repeat for other paintings -->
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Art Gallery. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

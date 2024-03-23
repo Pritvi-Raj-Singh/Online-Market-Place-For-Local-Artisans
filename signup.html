@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <link rel="stylesheet" type="text/css" href="signupcss.css">
+</head>
+<body>
+
+<div class="logo">
+    <img src="lg.png">
+</div>
+
+<div class="container">
+    <h2>Personal_Details</h2>
+    <form action="#" method="post">
+        <p>first Name:</p>
+        <input type="text" id="fname" name="fname" required><br>
+
+        <p>Email:</p>
+        <input type="email" id="email" name="email" required><br>
+
+        <p>Username:</p>
+        <input type="alphanumeric" id="username" name="username" required><br>
+
+
+        <p>Password:</p>
+        <input type="alphanumeric" id="password" name="password" required><br>
+
+
+
+        <p>Date Of Birth</p>
+        <input type="alphanumeric" id="dob" name="dob" required><br>
+
+        <p>Address:</p>
+        <textarea id="address" name="address" rows="4" required></textarea><br>
+
+        <p>Phone Number:</p>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+        <p>Account type</p>
+        <select id="accounttype" name="'accounttype" required>
+            <option value="">select Account type</option>
+            <option value="Buyer">Buyer</option>
+            <option value="Seller">Seller</option>
+        </select>
+            
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
+
+
+</body>
+</html>
